@@ -5,7 +5,7 @@ const Schema = mongoose.Schema
 // Create Schema and model
 
 const SchemaOne = new Schema({
-    name: string,
+    name: String,
     weight: Number
 })
 
