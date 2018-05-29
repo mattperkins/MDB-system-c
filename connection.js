@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 mongoose.Promise = global.Promise
 
 // connect to db before tests run
-before(function(done){
+before((done)=> {
     // connect to mongodb
     mongoose.connect('mongodb://fred:testtest@ds237620.mlab.com:37620/systemc')
 
