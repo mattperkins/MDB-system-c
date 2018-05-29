@@ -2,12 +2,12 @@ const assert = require('assert');
 const User = require('../models-m1')
 
 // Describe tests
-describe('Saving records', function(done){
+describe('Awesome, it works!', function(done){
 
     // Create test
     it('Saves a record to the database', function(){
       var char = new User({
-          name: 'Fred'
+          name: 'Sandy'
       })  
 
       char.save().then(function(){
@@ -17,5 +17,5 @@ describe('Saving records', function(done){
     });
 
     // next test
-    
+
 });
